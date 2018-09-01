@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Main
+public class MODEXP
 {
 	long fact[]=new long[800001];
 	long ifact[]=new long[800001];
@@ -22,7 +22,7 @@ public class Main
 		return (((fact[x+y]*ifact[x])%MOD)*ifact[y])%MOD;
 	}
 	
-    public Main() throws Exception
+    public MODEXP() throws Exception
     {
     	BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
 	    BufferedWriter out=new BufferedWriter(new OutputStreamWriter(System.out));
@@ -63,6 +63,6 @@ public class Main
     }
     public static void main(String args[]) throws Exception
     {
-	    new Main();
+	    new MODEXP();
     }
 } 

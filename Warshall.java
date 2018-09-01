@@ -9,10 +9,6 @@ class Warshall {
 		return D[N];
 	}
 
-	static public void main (String [ ] args) {
-	D[0][i][j]=input
-	}
-
 	static void matrixOutput (int [ ] [ ] a) {
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a[i].length; j++) 

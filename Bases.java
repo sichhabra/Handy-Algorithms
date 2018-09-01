@@ -19,7 +19,7 @@ public class Bases
 	public int fromDecimal2(int n,int b)
 	{
 		String chars="0123456789ABCDEFGHIJ";
-		String result="";
+		int result=0;
 		
 		while(n>0)
 		{

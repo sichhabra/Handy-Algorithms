@@ -1,4 +1,5 @@
-int v[],w[],n;
+class QuickSort{
+	int v[],w[],n;
 	public void quicksort(int l,int h)
 	{
 		int i=l,j=h;
@@ -23,3 +24,4 @@ int v[],w[],n;
 		if(l<j) quicksort(l,j);
 		if(i<h) quicksort(i,h);
 	}
+}
