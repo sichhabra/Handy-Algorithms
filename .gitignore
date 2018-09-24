@@ -1,3 +1,4 @@
+/.gitignore
 /AddWithoutArithematic.class
 /AdjacencyList$AdjLinkedList.class
 /AdjacencyList$AdjList.class
@@ -79,3 +80,5 @@
 /MODEXP.class
 /QuickSort.class
 /FordFulkerson.class
+/SubtreeSumEulerTourSegmentTree.class
+/SubtreeSumEulerTourSegmentTree$Node.class
